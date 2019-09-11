@@ -33,7 +33,7 @@ def eating_cookies(n):
     possible_combinations = first_num + second_num + third_num
     return possible_combinations
 
-print(eating_cookies(6))
+print(eating_cookies(5))
 
 if __name__ == "__main__":
   if len(sys.argv) > 1:

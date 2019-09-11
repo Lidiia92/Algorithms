@@ -14,7 +14,7 @@ def find_max_profit(prices):
   for i in range(0, len(prices) - 1):
     current_min_price_so_far = prices[i]
   
-    for j in range (1, len(prices) - 1):
+    for j in range (1, len(prices)):
       profits.append(prices[j] - current_min_price_so_far)
 
   max_profit_so_far = profits[0]
